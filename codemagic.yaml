@@ -1,0 +1,8 @@
+workflows:
+  mac-session:
+    name: Mac session
+    instance_type: mac_mini_m2
+    max_build_duration: 120
+    scripts:
+      - name: Keep Mac running
+        script: sleep 6600
